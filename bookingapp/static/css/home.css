@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    color: aquamarine;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}" />
+    
+  </head>
+  <body>
+    <h1>Welcome to the Resort Booking App!</h1>
+    <div>
+      <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'home' %}">Contact</a>
+        <a href="{% url 'home' %}">About</a>
+        <a href="{% url 'home' %}">Services</a>
+      </nav>
+
+    </div>
+
+    <div>
+      <img src="{% static 'images/flash_8.jpg' %}" alt="Resort Image" />
+  </body>
+</html>
